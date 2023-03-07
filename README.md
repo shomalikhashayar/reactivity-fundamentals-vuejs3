@@ -1,6 +1,6 @@
 # reactivity-fundamentals-vuejs3
 
-#Declaring Reactive State
+# Declaring Reactive State
 We can create a reactive object or array with the reactive() function:
 
 import { reactive } from 'vue'
