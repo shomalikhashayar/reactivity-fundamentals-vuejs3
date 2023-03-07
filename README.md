@@ -4,7 +4,6 @@
 We can create a reactive object or array with the reactive() function:
 
 `import { reactive } from 'vue'`
-`const state = reactive({ count: 0 })`
 
 Reactive objects are JavaScript Proxies and behave just like normal objects. The difference is that Vue is able to track the property access and mutations of a reactive object.
 
