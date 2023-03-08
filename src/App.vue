@@ -1,4 +1,9 @@
 <template>
+  <div class="header">
+    <a href="https://vuejs.org/tutorial/#step-1"
+      ><span>Get Start with Vue.js The Progressive Framework...</span></a
+    >
+  </div>
   <div class="container">
     <h2>Declaring Reactive State</h2>
     <p>
@@ -21,6 +26,9 @@
       <button class="increase" @click="increase">+</button>
     </div>
   </div>
+  <footer class="footer">
+    <p>Made with ❤️‍🔥 by Khashayar Shomali</p>
+  </footer>
 </template>
 
 <script setup>
@@ -42,6 +50,8 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   background-color: rgb(224, 255, 252);
+  padding: 0;
+  margin: 0;
 }
 .container {
   display: flex;
@@ -108,6 +118,34 @@ body {
   background-color: rgb(253, 185, 140);
 }
 
+.header {
+  height: 50px;
+  background-color: aquamarine;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+.footer{
+  height: 100px;
+  background-color: aquamarine;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom:0
+}
+
 /* Mobile Screens */
 
 @media screen and (max-width: 480px) {
@@ -134,6 +172,14 @@ body {
 
   .counter-container h2 {
     font-size: 28px;
+  }
+
+  .header {
+    font-size: 12px;
+  }
+
+  .footer{
+    font-size: 14px;
   }
 }
 </style>
