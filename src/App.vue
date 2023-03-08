@@ -135,7 +135,7 @@ body {
   text-decoration: none;
 }
 
-.footer{
+.footer {
   height: 100px;
   background-color: aquamarine;
   font-size: 14px;
@@ -143,7 +143,7 @@ body {
   justify-content: center;
   align-items: center;
   position: sticky;
-  bottom:0
+  bottom: 0;
 }
 
 /* Mobile Screens */
@@ -178,7 +178,7 @@ body {
     font-size: 12px;
   }
 
-  .footer{
+  .footer {
     font-size: 14px;
   }
 }
