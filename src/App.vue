@@ -45,7 +45,6 @@ const increase = () => {
 <style>
 body {
   font-family: sans-serif;
-  overflow-x: hidden;
   background-color: rgb(224, 255, 252);
   padding: 0;
   margin: 0;
@@ -75,7 +74,6 @@ body {
 }
 
 .counter-container {
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -134,13 +132,14 @@ body {
 }
 
 .footer {
-  height: 120px;
+  height: 80px;
+  width: 100vw;
   background-color: aquamarine;
   font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: absolute;
   bottom: 0;
 }
 
@@ -179,6 +178,7 @@ body {
 
   .footer {
     font-size: 14px;
+    height: 40px;
   }
 }
 </style>
