@@ -1,18 +1,15 @@
 <template>
   <div class="header">
-    <a href="https://vuejs.org/tutorial/#step-1"
-      ><span>Get Start with Vue.js The Progressive Framework...</span></a
-    >
+    <a href="https://vuejs.org/tutorial/#step-1"><span>Get Start with Vue.js The Progressive Framework...</span></a>
   </div>
   <div class="container">
     <h2>Declaring Reactive State</h2>
     <p>
       We can create a reactive object or array with the reactive() function:
-      <code class="code-snippet"
-        >import { reactive } from 'vue'
-        <br />
-        const state = reactive({ count: 0 })
-      </code>
+      <code class="code-snippet">import { reactive } from 'vue'
+          <br />
+          const state = reactive({ count: 0 })
+        </code>
       Reactive objects are JavaScript Proxies and behave just like normal
       objects. The difference is that Vue is able to track the property access
       and mutations of a reactive object.
@@ -53,6 +50,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -136,7 +134,7 @@ body {
 }
 
 .footer {
-  height: 100px;
+  height: 120px;
   background-color: aquamarine;
   font-size: 14px;
   display: flex;
@@ -152,6 +150,7 @@ body {
   .container {
     padding: 20px 0px;
   }
+
   .container h2 {
     font-size: 18px;
   }
